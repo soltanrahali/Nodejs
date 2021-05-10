@@ -1,0 +1,22 @@
+{
+  "name": "moviesapp",
+  "version": "1.0.0",
+  "description": "\"this is about movies\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "eror"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "soltan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "n-readlines": "^1.0.1",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.0.1"
+  }
+}
