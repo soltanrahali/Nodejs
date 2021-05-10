@@ -33,5 +33,3 @@ fs.appendFile('./myData.txt',`${name}\n`, (err) => {
     return
 })
 
-
-

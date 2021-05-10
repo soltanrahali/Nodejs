@@ -3,7 +3,7 @@ const express=require('express');
 const app=express();
 const port=6500;
 
-//define default route with express
+//define default route with express:
 app.get('/',(req,res) => {
     res.send('<h1> welcome to express server </h1>')
 })
